@@ -11,6 +11,10 @@
 		99808203260883150089CFA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99808202260883150089CFA4 /* ContentView.swift */; };
 		99808205260883160089CFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99808204260883160089CFA4 /* Assets.xcassets */; };
 		99808208260883160089CFA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99808207260883160089CFA4 /* Preview Assets.xcassets */; };
+		99808211260889F80089CFA4 /* UnoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99808210260889F80089CFA4 /* UnoData.swift */; };
+		9980821426089C930089CFA4 /* UnoGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980821326089C930089CFA4 /* UnoGameView.swift */; };
+		998F65D4262D8F93007C2C3F /* FinishGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F65D3262D8F93007C2C3F /* FinishGameView.swift */; };
+		99C26DA626269D8A0076A62F /* GameFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C26DA526269D8A0076A62F /* GameFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		99808204260883160089CFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99808207260883160089CFA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99808209260883160089CFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99808210260889F80089CFA4 /* UnoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnoData.swift; sourceTree = "<group>"; };
+		9980821326089C930089CFA4 /* UnoGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnoGameView.swift; sourceTree = "<group>"; };
+		998F65D3262D8F93007C2C3F /* FinishGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGameView.swift; sourceTree = "<group>"; };
+		99C26DA526269D8A0076A62F /* GameFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				99808200260883150089CFA4 /* ConanGameApp.swift */,
 				99808202260883150089CFA4 /* ContentView.swift */,
+				9980821326089C930089CFA4 /* UnoGameView.swift */,
+				998F65D3262D8F93007C2C3F /* FinishGameView.swift */,
+				99C26DA526269D8A0076A62F /* GameFunction.swift */,
+				99808210260889F80089CFA4 /* UnoData.swift */,
 				99808204260883160089CFA4 /* Assets.xcassets */,
 				99808209260883160089CFA4 /* Info.plist */,
 				99808206260883160089CFA4 /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99808211260889F80089CFA4 /* UnoData.swift in Sources */,
+				998F65D4262D8F93007C2C3F /* FinishGameView.swift in Sources */,
 				99808203260883150089CFA4 /* ContentView.swift in Sources */,
 				99808201260883150089CFA4 /* ConanGameApp.swift in Sources */,
+				9980821426089C930089CFA4 /* UnoGameView.swift in Sources */,
+				99C26DA626269D8A0076A62F /* GameFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
